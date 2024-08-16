@@ -834,7 +834,7 @@ void userpage(char username[20]) {
                 EmployeeAnnualDayRequest(username);
                 break;
             case 2:
-                loginpage;
+                loginpage();
                 break;
             default:
                 printf("Invalid choice. Please try again.\n");
